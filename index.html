@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/logo/logo1.png" type="image/png">
+    <title>DAVRINA | BOOKSTORE</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#cta">Início</a></li>
+                <li><a href="#sobre-nos">Sobre</a></li>
+                <li><a href="#menu"><img src="/img/logo/logo1.png" alt="Logo Davrina Bookstore"></a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cta">
+            <article> 
+                <h1>DAVRINA Bookstore</h1>
+                <div><span id="span-cta">Entre livros perdidos e penas esquecidas,
+                        descubra sua próxima leitura.</span>
+            </article>
+            <div id="cta-button">
+                <button>Explorar catálogo</button>
+            </div>
+        </section>
+        <section id="sobre-nos">
+            <div id="sobre-left">
+                <div id="sobre-title">
+                    <h2 id="title-sobre">Sobre nós</h2>
+                </div>
+                <p>Na DAVRINA, acreditamos na magia da descoberta literária. Nosso objetivo é proporcionar experiências
+                    surpreendentes e
+                    prazerosas, entregando livros misteriosos em caixas exclusivas, que despertam curiosidade e emoção.
+                </p>
+                <span>
+                    <p>Nossa missão é oferecer aventuras literárias misteriosas e inovadoras, promovendo a leitura de
+                        forma
+                        lúdica e surpreendente.</p>
+                </span>
+            </div>
+            <div id="sobre-right">
+                <img id="ancora-produto" src="img/img-sessions/image-session2-little-prince.png" alt="O Pequeno Príncipe">
+            </div>
+        </section>
+        <section id="catalogo">
+            <div id="catalogo-foto-left">
+                <img src="img/img-sessions/image-session3-eros.png" alt="">
+            </div>
+            <div id="catalogo-texto-right">
+                <h2>Catálogo</h2>
+                <p>Oferecemos uma variedade de livros, desde clássicos atemporais até lançamentos contemporâneos, todos
+                    selecionados com
+                    cuidado para garantir que cada caixa seja uma surpresa única. Nossos produtos são cuidadosamente
+                    embalados e enviados para todo o Brasil, proporcionando uma experiência inesquecível a cada entrega.
+                </p>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="produtos-carousel">
+                <div class="carousel">
+                    <div class="imagens" id="imagens">
+                        <img src="img/img-sessions/image-session-livro-frankstein.png" alt="Livro Frankenstein">
+                        <img src="img/img-sessions/image-session-livro-dracula.png" alt="Livro Drácula">
+                        <img src="img/img-sessions/image-session-livro-pride.png" alt="Livro Orgulho e Preconceito">
+                        <img src="img/carousel/1.png" alt="Capa do Livro surpresa 1">
+                        <img src="img/carousel/2.png" alt="Capa do Livro surpresa 2">
+                        <img src="img/carousel/3.png" alt="Capa do Livro surpresa 3">
+                        <img src="img/carousel/4.png" alt="Capa do Livro surpresa 4">
+                        <img src="img/carousel/5.png" alt="Capa do Livro surpresa 5">
+                        <img src="img/carousel/6.png" alt="Capa do Livro surpresa 6">
+                        <img src="img/carousel/7.png" alt="Capa do Livro surpresa 7">
+                    </div>
+                    <button class="anterior" id="anterior">&lt;</button>
+                    <button class="proximo" id="proximo">&gt;</button>
+                </div>
+            </div>
+            <div id="produtos-lista-left">
+                <h2 id="produto-title">Nossos Principais Produtos:</h2>
+                <ul>
+                    <li>Caixas e capas de livros surpresa</li>
+                    <li>Assinaturas mensais de livros misteriosos</li>
+                    <li>Presentes especiais e edições limitadas</li>
+                </ul>
+                <button>Faça seu Pedido</button>
+            </div>
+        </section>
+        <section id="nossos-diferenciais">
+            <div id="diferenciais-left">
+                <img src="img/img-sessions/image-session4-midpage.png" alt="">
+            </div>
+            <div id="diferenciais-right">
+                <h2>Nossos Diferenciais</h2>
+                <p>Lista de motivos para escolher a DAVRINA:</p>
+                <ul id="lista-diferenciais">
+                    <li><img class="icons-lista" src="img/img-sessions/icon-presente.png" alt="">Experiência única de
+                        surpresa a cada entrega</li>
+                    <li><img class="icons-lista" src="img/img-sessions/icon-caixa.png" alt="">Embalagens com a marca
+                        exclusiva DAVRINA</li>
+                    <li><img class="icons-lista" src="img/img-sessions/icon-livro.png" alt="">Seleção cuidadosa dos
+                        títulos</li>
+                    <li><img class="icons-lista" src="img/img-sessions/icon-envelope.png" alt="">Entrega rápida e
+                        discreta</li>
+                    <li><img class="icons-lista" src="img/img-sessions/icon-calendario.png" alt="">Opções de assinatura
+                        ou presentes especiais</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contato">
+            <h2 id="contato-title">Contato</h2>
+            <form class="contato-form" action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="10" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <div id="center">
+            <img id="img-center" src="img/logo/logo1.png" alt="Logo Davrina Bookstore">
+            <ul id="social-media">
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twiter</a></li>
+                <li><a href="">Facebook</a></li>
+            </ul>
+            <p>Lars Bookman, 10, Centro - Book City</p>
+            <p>Segunda a Sábado | 08:00 as 18:00</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>&copy; 2025 DAVRINA Bookstore. Todos os direitos reservados.</p>
+            <p>Desenvolvido por </p><a href="">Simple Devs</a>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
