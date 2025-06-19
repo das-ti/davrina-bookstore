@@ -62,7 +62,7 @@ main {
 #cta {
   margin-top: 10%;
   padding: 5% 7%;
-  background-image: url("/img/img-sessions/image-session1-biblioteca.png"),
+  background-image: url("img-sessions/image-session1-biblioteca.png"),
     linear-gradient(
       120deg,
       rgba(0, 0, 0, 0.747),
@@ -433,7 +433,7 @@ footer {
   text-align: center;
   padding: 0%;
   /* margin-top: 15%; */
-  background-image: url("/img/img-sessions/image-session7-footer-venus-coliseum.png");
+  background-image: url("img-sessions/image-session7-footer-venus-coliseum.png");
   background-size: cover;
   background-repeat: none;
 }
