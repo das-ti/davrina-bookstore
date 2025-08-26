@@ -1,4 +1,4 @@
-# davrina-bookstore
+# Davrina Bookstore
 # Layout da Página Web - Davrina BookStore
 
 ---
